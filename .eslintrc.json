@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "extends": "prettier",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "tabWidth": 2,
+        "semi": true
+      }
+    ]
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
